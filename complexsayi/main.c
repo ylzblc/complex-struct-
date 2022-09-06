@@ -25,10 +25,9 @@ int main(void)
     scanf("%f", &s2.imag);
 
     sonuc.reel=s1.reel+s2.reel;
-	sonuc.imag=s1.imag+s2.imag;
+    sonuc.imag=s1.imag+s2.imag;
 
-	printf("Karmasik sayilarin toplami: %.2lf%+.2lfi",sonuc.reel,sonuc.imag);
-	return 0;
+    printf("Karmasik sayilarin toplami: %.2lf%+.2lfi",sonuc.reel,sonuc.imag);
 
     return 0;
 }
